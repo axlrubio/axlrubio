@@ -121,9 +121,9 @@ $ make build
 
 <img src="https://streak-stats.demolab.com?user=axlrubio&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=axlrubio&bg_color=0D1117&color=C9D1D9&line=39D353&point=FFFFFF&area=true&area_color=39D353&hide_border=true" />
+<!-- 📈 Actividad y 🐍 serpiente: generados por .github/workflows/profile.yml -->
+<img width="100%" alt="actividad" src="https://raw.githubusercontent.com/axlrubio/axlrubio/output/activity.svg" />
 
-<!-- 🐍 Snake de contribuciones (requiere el workflow snake.yml) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axlrubio/axlrubio/output/github-snake-dark.svg" />
   <img width="100%" alt="snake" src="https://raw.githubusercontent.com/axlrubio/axlrubio/output/github-snake.svg" />
