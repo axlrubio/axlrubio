@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <style>
+    .mono  { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; }
+    .title { font-size: 54px; font-weight: 700; fill: #39D353; }
+    .tag   { fill: #8B949E; }
+    .sub   { font-size: 17px; fill: #C9D1D9; }
+    .bar   { font-size: 13px; fill: #8B949E; }
+    .prompt{ font-size: 15px; fill: #39D353; }
+    .cursor{ animation: blink 1s steps(1) infinite; }
+    .fade  { animation: fadein 1.2s ease-out both; }
+    .fade2 { animation: fadein 1.2s ease-out .5s both; }
+    @keyframes blink  { 50% { opacity: 0; } }
+    @keyframes fadein { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  </style>
+
+  <defs>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop offset="0"   stop-color="#0D1117" stop-opacity="0"/>
+      <stop offset=".5"  stop-color="#39D353"/>
+      <stop offset="1"   stop-color="#0D1117" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ventana -->
+  <rect x="1" y="1" width="898" height="218" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <rect x="1" y="1" width="898" height="36" rx="12" fill="#161B22"/>
+  <rect x="1" y="25" width="898" height="12" fill="#161B22"/>
+  <line x1="1" y1="37" x2="899" y2="37" stroke="#30363D"/>
+
+  <!-- Botones -->
+  <circle cx="24" cy="19" r="6" fill="#FF5F56"/>
+  <circle cx="44" cy="19" r="6" fill="#FFBD2E"/>
+  <circle cx="64" cy="19" r="6" fill="#27C93F"/>
+  <text x="450" y="23" text-anchor="middle" class="mono bar">axlrubio@github: ~/profile — bash</text>
+
+  <!-- Contenido -->
+  <text x="40" y="70" class="mono prompt">$ ./presentar.sh</text>
+
+  <g class="fade">
+    <text x="308" y="135" text-anchor="end"   class="mono title tag">&lt;</text>
+    <text x="320" y="135" textLength="230" lengthAdjust="spacingAndGlyphs" class="mono title">axlrubio</text>
+    <text x="562" y="135" text-anchor="start" class="mono title tag">/&gt;</text>
+    <rect class="cursor" x="636" y="128" width="26" height="6" fill="#39D353"/>
+  </g>
+
+  <text x="450" y="172" text-anchor="middle" class="mono sub fade2">Software Developer · IT &amp; Database Solutions</text>
+
+  <rect x="250" y="190" width="400" height="2" fill="url(#glow)"/>
+</svg>
